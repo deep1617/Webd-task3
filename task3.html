@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- fontawsome script -->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <title>Keeper</title>
+    
+        <style>
+            .head {
+                margin: 0 auto 0 auto;
+            }
+            .top{
+                background-color: rgb(172, 70, 12);
+                color: white;
+                padding: 1% 1%;
+            }
+    
+    
+            .btn {
+               /* width: 5%; */
+                border-radius: 100%;
+                background-color: rgb(172, 70, 12);
+                color: white;
+                position: relative;
+                left: 39%;
+            
+                
+            }
+           
+        </style>
+    </head> 
+
+
+<body>
+    <div class="top">
+        <h1><i class="fas fa-sticky-note"></i>keeper</h1>
+
+    </div>
+    <div class="container my-3">
+        <div class="container">
+            <!-- <h1>Add you note</h1> -->
+            <div class="card head" style="width: 18em;">
+                <div class="card-body">
+                    <h5 class="take-note">Add a note</h5>
+                    <textarea name="" id="addTxt" cols="30" rows="10" placeholder="Title&#10;Take a note"></textarea>
+                    
+                    <button class="btn btn-lg" id="addBtn"><i class="fas fa-plus"></i></button>
+                </div>
+            </div>
+        <h1>Your Notes</h1>
+        <hr>
+        <div id="notes" class="row container-fluid"> </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="task3.js"></script>
+</body>
+
+</html>
